@@ -1,4 +1,4 @@
-# Image Editor
+# Image Edit
 
 <p align="center">
   <a href="https://www.python.org">
