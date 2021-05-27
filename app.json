@@ -6,11 +6,11 @@
         "Image",
         "Editor",
         "Telegram Bot",
-        "TroJanzHEX"
+        "CoderzHEX"
     ],
-    "website": "https://TroJanzHEX.me",
-    "repository": "https://github.com/TroJanzHEX/Image-Editor",
-    "success_url": "https://telegram.dog/TroJanzHEX",
+    "website": "https://Nexonhexin.weebly.com",
+    "repository": "https://github.com/MaxxCoderZ/Image-Editor",
+    "success_url": "https://telegram.dog/CoderzHEX",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
