@@ -1,25 +1,28 @@
 class script(object):
 
-    START_MSG = """ <b>Hai {},
+    START_MSG = """ <b>Hᴀɪ { }
 
-I'm a simple Image Editor Bot which Supports various modes
+I'ᴍ ᴀ sɪᴍᴘʟᴇ Iᴍᴀɢᴇ Eᴅɪᴛᴏʀ Bᴏᴛ ᴡʜɪᴄʜ Sᴜᴘᴘᴏʀᴛs ᴠᴀʀɪᴏᴜs ᴍᴏᴅᴇs
 
-For more click help..
+Yᴏᴜ ᴍᴜsᴛ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ᴜsᴇ ᴍᴇ  😇</b>"""
+    HELP_MSG = """<b>Hᴇʏ ! ɪᴛ ɪs ᴠᴇʀʏ Mᴜᴄʜ Cᴏᴍᴘʟɪᴄᴀᴛᴇᴅ Fᴏʀ ᴀ ғᴏᴏʟ 😅
 
-You must join our channel in order to use me...</b>"""
-    HELP_MSG = """Hai, Follow these Steps..
+Jᴜsᴛ Fᴏʟʟᴏᴡ ᴛʜᴇsᴇ Sᴛᴇᴘs..
 
-<code>🌀 Send me any Image to Edit..</code>
+✣  Sᴇɴᴅ ᴍᴇ ᴀɴʏ Iᴍᴀɢᴇ ᴛᴏ Eᴅɪᴛ..
 
-<code>🌀 Select the Corresponding mode that you need</code>
+ ✣ Sᴇʟᴇᴄᴛ ᴛʜᴇ Cᴏʀʀᴇsᴘᴏɴᴅɪɴɢ ᴍᴏᴅᴇ ᴛʜᴀᴛ ʏᴏᴜ ɴᴇᴇᴅ
 
-<code>🌀 Your Edited Image will be Uploaded </code>"""
-    ABOUT_MSG = """⭕️<b>My Name : CoderZ Image Editor</b>
+✣  Yᴏᴜʀ Eᴅɪᴛᴇᴅ Iᴍᴀɢᴇ ᴡɪʟʟ ʙᴇ Uᴘʟᴏᴀᴅᴇᴅ
 
-⭕️<b>Language :</b> <code>Python3</code>
+© <a href='http://t.me/CoderzHEX'>Cᴏᴅᴇʀᴢʜᴇx Pʀᴏᴊᴇᴄᴛ's</a>
+</b>"""
+    ABOUT_MSG = """<b>✣  Mʏ Nᴀᴍᴇ : CᴏᴅᴇʀZ Iᴍᴀɢᴇ Eᴅɪᴛᴏʀ
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a>
+✣  Lᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ3
 
-⭕️<b>Creator :</b> <a href='https://telegram.me/MaxxcoderZ'>Maxx ⚡</a>
+✣  Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ 1.0.7</a>
 
-⭕<b>Source Code :</b> 👉 <a href='http://t.me/nokkiirunnoippokittum'>click here</a>"""
+✣  Cʀᴇᴀᴛᴏʀ :  <a href='http://t.me/MaxxCoderZ'>Mᴀxx</a>
+ 
+✣  Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : 👉 <a href='http://t.me/nokkiirunnoippokittum'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
