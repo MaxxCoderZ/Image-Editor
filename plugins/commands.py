@@ -29,6 +29,17 @@ async def start(client: Client, message: Message):
     except Exception:
         pass
 
+@Client.on_message(filters.command(["Source"]) & filters.private)
+async def start(client: Client, message: Message):
+    try:
+        await message.reply_text(
+            text=script.SOURCE_DATA.format(message.from_user.mention),
+            disable_web_page_preview=True,
+            reply_to_message_id=message.message_id,
+        )
+    except Exception:
+        pass
+
 
 @Client.on_message(filters.command(["help"]) & filters.private)
 async def help(client, message):
