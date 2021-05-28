@@ -54,7 +54,7 @@ from script import script  # pylint:disable=import-error
 async def cb_handler(client: Client, query: CallbackQuery):
     if query.data == "removebg":
         await query.message.edit_text(
-            "**Select required mode**ㅤㅤㅤㅤ",
+            "**✣ Pʟᴇᴀsᴇ Sᴇʟᴇᴄᴛ ᴛʜᴇ ʀᴇᴏ̨ᴜɪʀᴇᴅ ᴍᴏᴅᴇ**ㅤㅤㅤㅤ",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -71,7 +71,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "stick":
         await query.message.edit(
-            "**Select a Type**",
+            "**✣ Sᴇʟᴇᴄᴛ ᴡʜɪᴄʜ ᴛʏᴘᴇ Yᴏᴜ Nᴇᴇᴅ**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -90,7 +90,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "rotate":
         await query.message.edit_text(
-            "**Select the Degree**",
+            "**✣ Sᴇʟᴇᴄᴛ ᴛʜᴇ Dᴇɢʀᴇᴇ**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -106,12 +106,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("HELP", callback_data="help_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("Help 💡", callback_data="help_data"),
+                    InlineKeyboardButton("About 📒", callback_data="about_data"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕ JOIN OUR CHANNEL ⭕", url="https://t.me/CoderzHEX"
+                        "Updates Channel 📣", url="https://t.me/CoderzHEX"
                     )
                 ],
             ]
@@ -126,12 +126,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="start_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("Back 🔽", callback_data="start_data"),
+                    InlineKeyboardButton("About 📒", callback_data="about_data"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕ JOIN OUR CHANNEL ⭕", url="https://telegram.me/CoderzHEX"
+                        "Updates Channel 📣", url="https://telegram.me/CoderzHEX"
                     )
                 ],
             ]
@@ -143,12 +143,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("START", callback_data="start_data"),
+                    InlineKeyboardButton("Back 🔽", callback_data="help_data"),
+                    InlineKeyboardButton("Start 🏠", callback_data="start_data"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕ JOIN OUR CHANNEL ⭕", url="https://telegram.me/CoderzHEX"
+                        "Updates Channel 📣", url="https://telegram.me/CoderzHEX"
                     )
                 ],
             ]
@@ -158,7 +158,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "glitch":
         await query.message.edit_text(
-            "**Select required mode**ㅤㅤㅤㅤ",
+            "**✣ Sᴇʟᴇᴄᴛ ᴛʜᴇ ʀᴇᴏ̨ᴜɪʀᴇᴅ ᴍᴏᴅᴇ**ㅤㅤㅤㅤ",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -174,7 +174,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "normalglitch":
         await query.message.edit_text(
-            "**Select Glitch power level**",
+            "**✣ Sᴇʟᴇᴄᴛ Gʟɪᴛᴄʜ ᴘᴏᴡᴇʀ ʟᴇᴠᴇʟ**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -191,7 +191,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "scanlineglitch":
         await query.message.edit_text(
-            "**Select Glitch power level**",
+            "**✣ Sᴇʟᴇᴄᴛ Gʟɪᴛᴄʜ ᴘᴏᴡᴇʀ ʟᴇᴠᴇʟ**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -208,7 +208,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "blur":
         await query.message.edit(
-            "**Select a Type**",
+            "**✣ sᴇʟᴇᴄᴛ ᴀ ᴛʏᴘᴇ**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -221,7 +221,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "circle":
         await query.message.edit_text(
-            "**Select required mode**",
+            "**✣ Sᴇʟᴇᴄᴛ ʀᴇᴏ̨ᴜɪʀᴇᴅ ᴍᴏᴅᴇ**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -237,7 +237,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "border":
         await query.message.edit(
-            "**Select Border**",
+            "**✣ Sᴇʟᴇᴄᴛ Bᴏʀᴅᴇʀ**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
